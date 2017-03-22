@@ -63,6 +63,8 @@ On Windows wxWidgets uses Win32 Forms, so looks might change depending on Window
 
 Since wxWidgets requires the main thread to perform UI actions you would want to perform long running tasks in threads. To see an example of how you can use threads with wxWidgets look at the ``threads`` example found in ``examples/genuimacro``.
 
+## Original examples
+
 To compile the original examples::
 
     cd examples/purewx

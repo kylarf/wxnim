@@ -125,6 +125,17 @@ include private/stattext
 include private/statbox
 include private/tglbtn
 
+include private/dc
+include private/dcclient
+include private/dcbuffer
+include private/dcgraph
+include private/dcmemory
+include private/dcmirror
+include private/dcprint
+include private/dcps
+include private/dcscreen
+include private/dcsvg
+
 proc cnew*[T](x: T): ptr T {.importcpp: "(new @)", nodecl.}
 
 converter toEventType*[T](x: WxEventTypeTag[T]): WxEventType {.

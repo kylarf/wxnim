@@ -18,8 +18,6 @@
 #include "wx/font.h"
 #include "wx/colour.h"
 
-class WXDLLIMPEXP_FWD_CORE wxDC {};
-
 // ----------------------------------------------------------------------------
 // wxOwnerDrawn - a mix-in base class, derive from it to implement owner-drawn
 //                behaviour
